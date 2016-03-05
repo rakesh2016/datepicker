@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+{
+    UIDatePicker*datepicker;
+}
 
+
+@property (strong, nonatomic) IBOutlet UITextField *dobTF;
 @end
 
